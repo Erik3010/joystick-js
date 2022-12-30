@@ -1,11 +1,16 @@
 {
-  "name": "joystick-js",
+  "name": "@erikhau/joystick-js",
   "description": "A simple javascript joystick library",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": ["dist"],
   "main": "./dist/joystick-js.umd.js",
   "module": "./dist/joystick-js.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Erik3010/joystick-js.git"
+  },
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/joystick-js.es.js",
