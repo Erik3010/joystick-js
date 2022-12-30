@@ -1,0 +1,25 @@
+{
+  "name": "joystick-js",
+  "description": "A simple javascript joystick library",
+  "private": false,
+  "version": "1.0.0",
+  "files": ["dist"],
+  "main": "./dist/joystick-js.umd.js",
+  "module": "./dist/joystick-js.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/joystick-js.es.js",
+      "require": "./dist/joystick-js.umd.js"
+    }
+  },
+  "keywords": ["joystick", "joystick-js", "virtual-joystick"],
+  "author": "Erik Hau",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
