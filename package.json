@@ -3,9 +3,12 @@
   "description": "A simple javascript joystick library",
   "private": false,
   "version": "1.0.1",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/joystick-js.umd.js",
   "module": "./dist/joystick-js.es.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Erik3010/joystick-js.git"
@@ -17,7 +20,11 @@
       "require": "./dist/joystick-js.umd.js"
     }
   },
-  "keywords": ["joystick", "joystick-js", "virtual-joystick"],
+  "keywords": [
+    "joystick",
+    "joystick-js",
+    "virtual-joystick"
+  ],
   "author": "Erik Hau",
   "scripts": {
     "dev": "vite",
